@@ -1,0 +1,352 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", Arial;
+  overflow-x: hidden;
+  /* background: url(../img/bg_top.jpg); */
+  scroll-behavior: smooth;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+img {
+    object-fit: contain;
+}
+
+.font_24 {
+  font-weight: 24px;
+}
+.font_20 {
+  font-size: 20px;
+}
+.font_18 {
+  font-size: 18px;
+}
+.line_height {
+  line-height: 1.8 !important;
+}
+.fixed {
+  background: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  /* border-bottom: 3px solid #d9534f; */
+}
+
+.navbar {
+  background-color: #0d0a1a;
+  padding: 20px;
+}
+.nav-link {
+  color: #fff !important;
+  opacity: 0.6;
+}
+.nav-link:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-toggler {
+  /* background-color: #fff !important; */
+  background: transparent !important;
+  border: none !important;
+}
+.navbar-toggler:focus {
+  outline: 0 !important;
+}
+
+.active {
+  opacity: 1;
+  font-weight: bold;
+  color: #ff4a6b !important;
+}
+/* Scrollbar Styling */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #0d0a1a;
+}
+
+.text-yellow {
+  color: #f0af0e;
+}
+.text-opacity {
+  opacity: 0.6;
+}
+.empathize {
+  background-image: url(../img/background_top.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.empathize__row {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+.empathize__row h1 {
+  font-size: 72px;
+}
+
+.empathize__row p {
+  font-size: 28px;
+  opacity: 0.7;
+}
+.aboutus {
+  padding-bottom: 100px !important;
+}
+.aboutus p {
+  font-size: 22px;
+  opacity: 0.6;
+}
+
+.neuroscience {
+  background-color: #0d0a1a;
+}
+
+.download__btn {
+  background: transparent !important;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.download__btn:hover {
+  background-color: #f0af0e !important;
+  border: 1px solid #f0af0e !important;
+}
+
+.product {
+  padding-top: 100px;
+}
+
+.upcoming_product {
+  background-color: #0d0a1a;
+  padding-bottom: 250px !important;
+  padding-top: 200px !important;
+}
+.team {
+  background: url(../img/team.png), #0d0a1a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* height: 100vh; */
+}
+.team small {
+  opacity: 0.6;
+}
+.team_img {
+  height: 150px !important;
+}
+
+.get__touch {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.glow__btn {
+  width: 160px;
+  height: 160px;
+  background-color: #ff4a6b;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.glow__btn p {
+  position: absolute;
+  top: 45%;
+  left: 20% !important;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+/* Yellow Background */
+.yellow {
+  -webkit-animation: yellow 2s infinite;
+  -moz-animation: yellow 2s infinite;
+  -o-animation: yellow 2s infinite;
+  animation: yellow 2s infinite;
+}
+/* Yellow Shadow */
+@-moz-keyframes yellow {
+  0%,
+  100% {
+    -moz-box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+}
+
+@-webkit-keyframes yellow {
+  0%,
+  100% {
+    -webkit-box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+}
+
+@-o-keyframes yellow {
+  0%,
+  100% {
+    box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes yellow {
+  0%,
+  100% {
+    box-shadow: 1px 0px 19px 4px #ff4a6b,
+      inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0),
+      inset 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.modal-content {
+  padding: 10px !important;
+}
+
+.modal-header {
+  border: none !important;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  opacity: 0.6 !important;
+  font-size: 14px !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  opacity: 0.6 !important;
+  font-size: 14px !important;
+}
+
+::placeholder {
+  opacity: 0.6 !important;
+  font-size: 14px !important;
+}
+
+.contact_modal {
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+}
+.contact_modal::after {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background: #f0af0e;
+  position: absolute;
+  left: calc(50%);
+  bottom: -5px;
+  margin-top: 30px;
+}
+
+.submit_btn {
+  background: #f0af0e;
+  color: #fff;
+  padding: 10px 35px;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .empathize__row h1 {
+    font-size: 32px !important;
+  }
+
+  .empathize__row p {
+    font-size: 18px !important;
+  }
+
+  .aboutus p {
+    font-size: 18px;
+  }
+  .neuroscience__row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .glow__btn p {
+    left: 18%;
+  }
+  .footer__p {
+    font-size: 12px;
+  }
+  .aboutus {
+    padding-bottom: 50px !important;
+  }
+  .font_normal {
+    font-size: 16px;
+  }
+  .upcoming_product {
+    padding-top: 50px !important;
+    padding-bottom: 100px !important;
+  }
+  .upcoming_product h2 {
+    font-size: 18px;
+  }
+  .product {
+    padding-top: 0 !important;
+  }
+}
